@@ -1,6 +1,9 @@
 <h1 align="center"><strong>Mixed Messages Program</strong></h1>
 </br>
 
+## Preview with Pages
+https://zewela.github.io/mixed-messages/ 
+
 ## Description 
 Codecademy project.  
 Every time a user runs a program, they should get a new, randomized output.  
