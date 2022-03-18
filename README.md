@@ -9,7 +9,7 @@ In my version it will be fantastic-fictional sentance!
 ### Features 
 The message that the program outputs is made up of three different pieces of data to make it truly random.
 
-[image](../images/image.png)
+[image](image.png)
 
 ### Technologies
 + JavaScript
