@@ -10,8 +10,16 @@ button.addEventListener('click',()  => {
     const verb = ['swimming', 'skiing', 'diving', 'jogging', 'sunbathing', 'sliding', 'dancing', 'smiling', 'slepping'];
     
     const getRandom = arr => {
-        let randomNumber = Math.floor(Math.random() * arr.length);
-        return arr[randomNumber]
+        let holder = arr;
+        let counter = arr.length;
+        let temp;
+        let index;
+        index = Math.floor(Math.random()*counter--);
+        temp = holder[counter];
+        holder[counter] = holder[index];
+        holder[index] = temp;
+        let randomNumber = Math.floor(Math.random() * holder.length);
+        return holder[randomNumber]
     }
     
     const getRandomMessage = () => {
