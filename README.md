@@ -11,6 +11,7 @@ In my version it will be fantastic-fictional sentance!
 
 ### Features 
 The message that the program outputs is made up of three different pieces of data to make it truly random.
+With use of Fisher–Yates shuffle Algorithm.
 
 ![image](image.png)
 
